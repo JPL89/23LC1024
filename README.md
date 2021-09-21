@@ -12,6 +12,6 @@ char data = memory.Read_Block(0);<br />
 
 nokia5110.WriteInt(data, 0, 0, Font_Arial_16x16);<br />
 
-<img align="left" width="390" height="600" src="https://github.com/josimarpereiraleite/23LC1024/blob/main/Images/0.png"><br />
+<img align="left" width="500" height="800" src="https://github.com/josimarpereiraleite/23LC1024/blob/main/Images/0.png"><br />
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 <br /><br /><br /><br /><br /><br /><br /><br />
