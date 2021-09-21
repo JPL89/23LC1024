@@ -122,9 +122,6 @@ void MEM::Serial_Init()
 	//	ACTIVE: LOW
 	MEM_CS_HIGH;
 
-	//	The HOLD pin is used to suspend transmission to the
-	// 	25XX010A while in the middle of a serial sequence
-	// 	without having to retransmit the entire sequence again.
 	MEM_HOLD_HIGH; 
 	
 	SPCR |= (1<<SPE)|(1<<MSTR)|(1<<SPR0);
